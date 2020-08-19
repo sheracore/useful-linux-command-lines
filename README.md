@@ -2,7 +2,7 @@
 ### Change corrent directory to shrter type 
 ### It is in ~/.bashrc but you can test is with this
 ``` export PS1="\u > " ```
-* Instread of \u you can use this things
+* Instead of \u you can use this things
 ```
 \a     The 'bell' character
 \A     24h Time
