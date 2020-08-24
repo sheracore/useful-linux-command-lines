@@ -1,6 +1,6 @@
 # useful-linux-command-lines
 ### Change corrent directory to shrter type 
-### It is in ~/.bashrc but you can test is with this
+#### It is in ~/.bashrc but you can test is with this
 ``` export PS1="\u > " ```
 * Instead of \u you can use this things
 ```
@@ -27,4 +27,8 @@
 \$     A "#" if you're root, else "$"
 \\     Literal Backslash
 \@     Time (12h format with am/pm
+```
+### How to find does each port in used or not 
+```
+netstate -na | LISTEN
 ```
