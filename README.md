@@ -40,3 +40,8 @@ ssh -L 3128:127.0.0.1:3128 user@10.XXX.XXX.XXX
 export http_proxy=http://127.0.0.1:3129(3128)
 export http_proxy=http://127.0.0.1:3129(3128)
 ```
+### Unzip multiple files using shell for loop
+```
+for g in *.gz; do gunzip $g; done
+```
+
