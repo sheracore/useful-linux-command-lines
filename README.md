@@ -50,4 +50,4 @@ for g in *.gz; do gunzip $g; done
 mkdir -p /vol/web/media
 mkdir -p /vol/web/static
 ```
-
+### chown -R meanse recursive that meanes all sub directory contain
