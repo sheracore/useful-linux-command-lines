@@ -45,3 +45,9 @@ export http_proxy=http://127.0.0.1:3129(3128)
 for g in *.gz; do gunzip $g; done
 ```
 
+### To create a directory path that is not exist your can use ''' -p ''' switch
+```
+mkdir -p /vol/web/media
+mkdir -p /vol/web/static
+```
+
