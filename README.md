@@ -50,4 +50,21 @@ for g in *.gz; do gunzip $g; done
 mkdir -p /vol/web/media
 mkdir -p /vol/web/static
 ```
-### chown -R meanse recursive that meanes all sub directory contain
+### chown -R meanse recursive that meanes all sub directory contain, and in user:user firs user is user and the second is groupid that you can see it in ll
+### To see resource file of grep result use this
+```
+grep LN * (grep LN *)
+LN : Lorestan 
+```
+---------------------------------------
+
+### TO get multiple files in ftp path
+```
+ Run this first:
+
+  prompt noprompt
+
+ So run this to get all files
+
+  mget files(*.csv)
+```
