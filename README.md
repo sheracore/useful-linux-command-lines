@@ -68,3 +68,11 @@ LN : Lorestan
 
   mget files(*.csv)
 ```
+
+### It's about tmux
+```
+# kill all tmux
+pkill -f tmux
+# remove all session except current session
+tmux kill-session -a
+```
