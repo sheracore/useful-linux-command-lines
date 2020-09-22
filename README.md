@@ -76,3 +76,7 @@ pkill -f tmux
 # remove all session except current session
 tmux kill-session -a
 ```
+### How to grep multiple strings
+```
+grep -e patten1 -e pattern2 -e pattern3 
+```
