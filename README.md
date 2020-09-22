@@ -69,7 +69,7 @@ LN : Lorestan
   mget files(*.csv)
 ```
 
-### It's about tmux
+### It's how to kill all running tmux or all tmux instead of current session
 ```
 # kill all tmux
 pkill -f tmux
