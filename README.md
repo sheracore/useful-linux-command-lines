@@ -80,3 +80,8 @@ tmux kill-session -a
 ```
 grep -e patten1 -e pattern2 -e pattern3 
 ```
+### If you couldn's install psycopg2 on alpine docker, you can install these befor installing psycopg2
+```
+RUN apk update && apk add postgresql-dev gcc python3-dev musl-dev
+pip install psycopg2
+```
