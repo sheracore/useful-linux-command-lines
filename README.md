@@ -1,6 +1,6 @@
 # useful-linux-command-lines
 ### Change corrent directory to shrter type 
-#### It is in ~/.bashrc but you can test is with this
+#### It is in ~/.bashrc but you can test it with this command without changing bashrc
 ``` export PS1="\u > " ```
 * Instead of \u you can use this things
 ```
