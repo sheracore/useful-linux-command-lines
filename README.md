@@ -85,3 +85,8 @@ grep -e patten1 -e pattern2 -e pattern3
 RUN apk update && apk add postgresql-dev gcc python3-dev musl-dev
 pip install psycopg2
 ```
+
+### This command is like tail -f but this one you can use for directories
+```
+watch ls
+```
