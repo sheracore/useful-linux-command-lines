@@ -51,13 +51,8 @@ mkdir -p /vol/web/media
 mkdir -p /vol/web/static
 ```
 ### chown -R meanse recursive that meanes all sub directory contain, and in user:user firs user is user and the second is groupid that you can see it in ll
-### To see resource file of grep result use this
-```
-grep LN * (grep LN *)
-LN : Lorestan 
-```
----------------------------------------
 
+## FTP
 ### TO get multiple files in ftp path
 ```
  Run this first:
@@ -75,6 +70,14 @@ LN : Lorestan
 pkill -f tmux
 # remove all session except current session
 tmux kill-session -a
+```
+## Grep
+### To see resource file of grep result use "-r or -lr" switch or just grep without "ls | grep"
+```
+cat * | grep -r QN 
+cat * | grep -lr QN
+grep QN * (grep QN *)
+QN : Qazvin 
 ```
 ### How to grep multiple strings
 ```
