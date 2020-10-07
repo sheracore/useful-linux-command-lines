@@ -72,7 +72,7 @@ pkill -f tmux
 tmux kill-session -a
 ```
 ## Grep
-### To see resource file of grep result use "-r or -lr" switch or just grep without "ls | grep"
+### To see resource file of grep result use '-r or -lr' switch or just grep without 'ls | grep'
 ```
 cat * | grep -r QN 
 cat * | grep -lr QN
