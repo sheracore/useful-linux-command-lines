@@ -93,3 +93,7 @@ pip install psycopg2
 ```
 watch ls
 ```
+### Untrack folder locally in git and push to production without deleting [Link](https://stackoverflow.com/questions/24290358/remove-a-folder-from-git-tracking)
+```
+git rm -r --cached --ignore-unmatch folder_name
+```
