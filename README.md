@@ -97,3 +97,8 @@ watch ls
 ```
 git rm -r --cached --ignore-unmatch folder_name
 ```
+## Network
+### To show network status ports and Ip's listen
+```
+sudo netstat -tulpn | grep LISTEN
+```
