@@ -64,6 +64,7 @@ mkdir -p /vol/web/static
   mget files(*.csv)
 ```
 
+## Tmux
 ### It's how to kill all running tmux or all tmux instead of current session
 ```
 # kill all tmux
