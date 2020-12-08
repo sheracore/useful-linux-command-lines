@@ -103,3 +103,9 @@ git rm -r --cached --ignore-unmatch folder_name
 ```
 sudo netstat -tulpn | grep LISTEN
 ```
+## Git
+### Delete local changes
+```
+git checkout -f
+git clean -fd
+```
