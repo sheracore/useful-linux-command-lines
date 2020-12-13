@@ -119,7 +119,7 @@ screen -S your_session_name
 ```
 screen -ls
 ```
-#### To going to the screen
+#### To go into the screen
 ```
 screen -r [screen_name]
 ```
