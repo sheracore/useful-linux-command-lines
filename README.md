@@ -109,3 +109,17 @@ sudo netstat -tulpn | grep LISTEN
 git checkout -f
 git clean -fd
 ```
+
+## Screen
+### To assign name to screen
+```
+screen -S your_session_name
+```
+### To show list of screen
+```
+screen -ls
+```
+### To going to the screen
+```
+screen -r [screen_name]
+```
