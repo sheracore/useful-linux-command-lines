@@ -123,3 +123,7 @@ screen -ls
 ```
 screen -r [screen_name]
 ```
+#### How to kill session
+```
+$ screen -X -S [session # you want to kill] quit
+```
