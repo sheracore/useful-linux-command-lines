@@ -127,3 +127,14 @@ screen -r [screen_name]
 ```
 $ screen -X -S [session # you want to kill] quit
 ```
+## Hardware
+#### To monitoring use:
+```
+top
+htop
+```
+#### To show free memory use:
+```
+free -m
+free -mh
+```
