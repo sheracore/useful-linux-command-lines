@@ -71,6 +71,13 @@ mkdir -p /vol/web/static
 pkill -f tmux
 # remove all session except current session
 tmux kill-session -a
+
+control + b  and  < ----> rename
+control + b  and  c ----> new window
+control + b  and  z ----> zoom
+control + b and   " ----> separate screen horizontal
+control + b and   % ----> separate screen vertical
+control + b and   w ----> show all sessionstmux 
 ```
 ## Grep
 #### To see resource file of grep result use '-r or -lr' switch or just grep without 'ls | grep'
@@ -137,15 +144,4 @@ htop
 ```
 free -m
 free -mh
-```
-
-## tmux
-```
-control + b  and  < ----> rename
-control + b  and  c ----> new window
-control + b  and  z ----> zoom
-control + b and   " ----> separate screen horizontal
-control + b and   % ----> separate screen vertical
-control + b and   w ----> show all sessionstmux 
-kill-session -a ----> kill all other tmux sesions instead of currend session 
 ```
