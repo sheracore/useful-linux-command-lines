@@ -77,7 +77,8 @@ control + b  and  c ----> new window
 control + b  and  z ----> zoom
 control + b and   " ----> separate screen horizontal
 control + b and   % ----> separate screen vertical
-control + b and   w ----> show all sessionstmux 
+control + b and   w ----> show all sessions
+control + b and  m ---->  mouse ON and insert it again to mouse OFF
 ```
 ## Grep
 #### To see resource file of grep result use '-r or -lr' switch or just grep without 'ls | grep'
