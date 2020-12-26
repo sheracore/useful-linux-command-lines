@@ -138,3 +138,14 @@ htop
 free -m
 free -mh
 ```
+
+## tmux
+```
+control + b  and  < ----> rename
+control + b  and  c ----> new window
+control + b  and  z ----> zoom
+control + b and   " ----> separate screen horizontal
+control + b and   % ----> separate screen vertical
+control + b and   w ----> show all sessionstmux 
+kill-session -a ----> kill all other tmux sesions instead of currend session 
+```
