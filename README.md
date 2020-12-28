@@ -146,3 +146,8 @@ htop
 free -m
 free -mh
 ```
+## dpkg
+#### To install .deb softwares
+```
+sudo dpkg -i skypeforlinux-64.deb
+```
