@@ -149,5 +149,5 @@ free -mh
 ## dpkg
 #### To install .deb softwares
 ```
-sudo dpkg -i skypeforlinux-64.deb
+sudo dpkg -i [software_name].deb
 ```
