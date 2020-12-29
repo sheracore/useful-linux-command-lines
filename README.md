@@ -151,3 +151,10 @@ free -mh
 ```
 sudo dpkg -i [software_name].deb
 ```
+## ls
+```
+lspci
+lshw
+lslok
+lsns
+```
