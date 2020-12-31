@@ -158,3 +158,12 @@ lshw
 lslok
 lsns
 ```
+## SSH
+#### To do ssh on your system by another host you shold open your ssh by
+```
+ sudo apt install openssh-server
+```
+#### So you shold allow to ssh by ufw
+```
+sudo ufw allow ssh
+```
