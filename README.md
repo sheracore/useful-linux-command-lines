@@ -116,6 +116,8 @@ sudo netstat -tulpn | grep LISTEN
 ```
 git checkout -f
 git clean -fd
+or
+git reset --hard
 ```
 
 ## Screen
