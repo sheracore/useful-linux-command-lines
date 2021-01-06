@@ -33,6 +33,11 @@
 ```
 netstate -na | LISTEN
 ```
+##### To find port connection
+```
+nc -vz 192.168.15.72 22
+```
+
 #### How forward your internet to remote server by ssh
 ![quid architecture](/pics/squid.png)
 ```
