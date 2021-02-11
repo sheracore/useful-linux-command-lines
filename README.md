@@ -174,3 +174,10 @@ lsns
 ```
 sudo ufw allow ssh
 ```
+## Mount
+#### how to mount windows drives in linux
+```
+sudo mount -t ntfs-3g -o ro /dev/sda4 /media/mohamad/WIN_PART/
+OR
+sudo mount -t vfat -o ro /dev/sdb1 /media/aaronkilik/WIN_PART
+```
