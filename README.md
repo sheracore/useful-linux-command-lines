@@ -42,8 +42,8 @@ nc -vz 192.168.15.72 22
 ![quid architecture](/pics/squid.png)
 ```
 ssh -L 3128:127.0.0.1:3128 user@10.XXX.XXX.XXX
-export http_proxy=http://127.0.0.1:3129(3128)
-export http_proxy=http://127.0.0.1:3129(3128)
+export http_proxy=http://127.0.0.1:3128(3129)
+export http_proxy=http://127.0.0.1:3128(3129)
 ```
 #### Unzip multiple files using shell for loop
 ```
