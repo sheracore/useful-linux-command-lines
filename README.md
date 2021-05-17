@@ -158,6 +158,12 @@ free -mh
 ```
 sudo dpkg -i [software_name].deb
 ```
+#### To change and reconfigure locals in deb
+```
+ export LC_ALL=en_US.UTF-8
+ sudo  dpkg-reconfigure locales
+```
+
 ## ls
 ```
 lspci
