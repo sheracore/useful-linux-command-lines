@@ -196,3 +196,12 @@ $ tr '{}' '()'   newfile.txt
 $ echo "Welcome    To    GeeksforGeeks" | tr -s [:space:] ' '
 
 ```
+
+## Add user and create sftp
+### First create a group and so ..
+```
+sudo addgroup sftp
+sudo useradd -m sftpuser -g sftp
+sudo passwd sftpuser
+sudo chmod 700 /home/sftpuser/
+```
