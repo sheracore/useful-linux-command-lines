@@ -205,3 +205,8 @@ sudo useradd -m sftpuser -g sftp
 sudo passwd sftpuser
 sudo chmod 700 /home/sftpuser/
 ```
+
+## Loop in linux 
+```
+$ for i in $( ls ); do mv $i $i.txt; done
+```
