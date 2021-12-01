@@ -210,3 +210,16 @@ sudo chmod 700 /home/sftpuser/
 ```
 $ for i in $( ls ); do mv $i $i.txt; done
 ```
+
+# Rust
+## Create rustenv
+### First install venv of python so install rustenv
+```
+virtualenv venv -p python3
+source ./venv/bin/activate
+pip3 install rustenv
+rustenv renv
+source renv/bin/activate 
+```
+
+
