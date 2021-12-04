@@ -209,6 +209,7 @@ sudo chmod 700 /home/sftpuser/
 ## Loop in linux 
 ```
 $ for i in $( ls ); do mv $i $i.txt; done
+for i in $( ls ); do mv "               $i" "SOURCE$i"; done
 ```
 
 # Rust
