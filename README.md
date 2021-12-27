@@ -116,6 +116,13 @@ git rm -r --cached --ignore-unmatch folder_name
 ```
 sudo netstat -tulpn | grep LISTEN
 ```
+
+## find
+#### To find type of file use this
+```
+find / -type f -name "*.py"
+```
+
 ## Git
 #### Delete local changes
 ```
