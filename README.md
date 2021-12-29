@@ -38,13 +38,6 @@ netstate -na | LISTEN
 nc -vz 192.168.15.72 22
 ```
 
-#### How forward your internet to remote server by ssh
-![quid architecture](/pics/squid.png)
-```
-ssh -L 3128:127.0.0.1:3128 user@10.XXX.XXX.XXX
-export http_proxy=http://127.0.0.1:3128(3129)
-export http_proxy=http://127.0.0.1:3128(3129)
-```
 #### Unzip multiple files using shell for loop
 ```
 for g in *.gz; do gunzip $g; done
@@ -183,6 +176,20 @@ lsns
 ```
  sudo apt install openssh-server
 ```
+
+#### Copy ssh_pub to a remote server in it's ~/.ssh/known_hosts
+```
+ssh-copy-id fwutech@192.168.181.26 -p 50001
+```
+
+#### How forward your internet to remote server by ssh
+![quid architecture](/pics/squid.png)
+```
+ssh -L 3128:127.0.0.1:3128 user@10.XXX.XXX.XXX
+export http_proxy=http://127.0.0.1:3128(3129)
+export http_proxy=http://127.0.0.1:3128(3129)
+```
+
 #### So you shold allow to ssh by ufw
 ```
 sudo ufw allow ssh
