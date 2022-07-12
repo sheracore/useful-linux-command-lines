@@ -100,10 +100,7 @@ pip install psycopg2
 ```
 watch ls
 ```
-#### Untrack folder locally in git and push to production without deleting [Link](https://stackoverflow.com/questions/24290358/remove-a-folder-from-git-tracking)
-```
-git rm -r --cached --ignore-unmatch folder_name
-```
+
 ## Network
 #### To show network status ports and Ip's listen
 ```
@@ -123,6 +120,14 @@ git checkout -f
 git clean -fd
 or
 git reset --hard
+```
+#### Untrack folder locally in git and push to production without deleting [Link](https://stackoverflow.com/questions/24290358/remove-a-folder-from-git-tracking)
+```
+git rm -r --cached --ignore-unmatch folder_name
+```
+#### Push commit message changes without any file changes
+```
+git push --force-with-lease origin example-branch
 ```
 
 ## Screen
