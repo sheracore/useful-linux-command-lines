@@ -176,6 +176,11 @@ lshw
 lslok
 lsns
 ```
+## SSHUTTL
+#### To transfer all traffic from your vps
+```
+sshuttle -r user@ip(VPS) -x ip(vps) 0/0
+```
 ## SSH
 #### To do ssh on your system by another host you shold open your ssh by
 ```
