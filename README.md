@@ -186,6 +186,12 @@ sshuttle -r user@ip(VPS) -x ip(vps) 0/0
 ```
  sudo apt install openssh-server
 ```
+#### To transfer your traffic in a specific port for using sucks5 like telegram uses the following command this should use by a foregin vps
+```
+ssh -D [any port] -N user@ip
+telegram: sucks5 127.0.0.1:aboveport
+browser: add on switch omega
+```
 
 #### Copy ssh_pub to a remote server in it's ~/.ssh/known_hosts
 ```
