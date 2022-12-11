@@ -130,6 +130,12 @@ git rm -r --cached --ignore-unmatch folder_name
 git push --force-with-lease origin example-branch
 ```
 
+#### git pull/clone with deploy key
+```
+GIT_SSH_COMMAND='ssh -i private_key_file -o IdentitiesOnly=yes' git clone user@host:repo.git
+GIT_SSH_COMMAND='ssh -i private_key_file -o IdentitiesOnly=yes' git pull
+```
+
 ## Screen
 #### To assign name to screen
 ```
